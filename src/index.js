@@ -1,4 +1,1 @@
-const myArrowFunc = (a, b) => {
-    if (a === void 0) return b;
-    return a;
-};
+import FormContainer from "./js/components/container/FormContainer.jsx";
