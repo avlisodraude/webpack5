@@ -7,9 +7,8 @@ class FormContainer extends Component {
         this.state = {
             seo_title: ""
         };
-        this.handleChange = this.handleChange.bind(this);
     }
-    handleChange(event) {
+    handleChange = (event) => {
         this.setState({ [event.target.id]: event.target.value });
     }
     render() {
